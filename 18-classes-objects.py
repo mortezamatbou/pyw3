@@ -91,3 +91,5 @@ print(obj.name)  # will raise an error
 # + The pass Statement
 class Person:
     pass
+
+# https://www.w3schools.com/python/python_classes.asp

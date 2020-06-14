@@ -98,3 +98,5 @@ obj = B("Title of post 112524")
 # If you add a method in the child class with the same name as a function in the parent class,
 # the inheritance of the parent method will be overridden.
 print(obj.get_str())
+
+# https://www.w3schools.com/python/python_inheritance.asp

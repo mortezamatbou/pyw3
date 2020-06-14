@@ -110,3 +110,5 @@ my_students = iter(obj)
 
 for student in obj:
     print(student['name'], student['age'])
+
+# https://www.w3schools.com/python/python_iterators.asp

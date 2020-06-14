@@ -83,3 +83,5 @@ def def_1():
 
 
 def_1()
+
+# https://www.w3schools.com/python/python_scope.asp
