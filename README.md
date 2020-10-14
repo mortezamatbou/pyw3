@@ -1,2 +1,2 @@
 # pyw3
-python sample code form w3shools.com python tutorials
+python sample code from w3shools.com python tutorials
