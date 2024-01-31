@@ -12,3 +12,8 @@ cars = ["Ford", "Volvo", "BMW"]
 print(cars)
 
 # https://www.w3schools.com/python/python_arrays.asp
+
+# An array is a contiguous chunk of memory with a fixed size whereas a list is typically implemented
+# as individual elements linked to each other via pointers and does not have a fixed size
+# https://cplusplus.com/forum/beginner/139277/#:~:text=An%20array%20is%20a%20contiguous,not%20have%20a%20fixed%20size.
+
