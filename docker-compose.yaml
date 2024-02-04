@@ -6,8 +6,8 @@ services:
       - "6379:6379"
     volumes:
       - ./docker-compose-volumes/redis:/data
-    networks:
-      - pyw3
+#    networks:
+#      - pyw3
 
   mariadb:
     image: mariadb
@@ -21,8 +21,9 @@ services:
       - MARIADB_DATABASE=${DB_DATABASE}
     volumes:
       - "./docker-compose-volumes/mariadb:/var/lib/mysql"
-    networks:
-      - pyw3
+      - "./docker-compose-volumes/entrypoint/bootstrap-tables.sql:/docker-entrypoint-initdb.d/init.sql"
+#    networks:
+#      - pyw3
 
   mongo:
     image: mongo
@@ -35,9 +36,9 @@ services:
       - MONGO_INITDB_ROOT_USERNAME=${DB_MONGO_USERNAME}
       - MONGO_INITDB_ROOT_PASSWORD=${DB_MONGO_PASSWORD}
       - MONGO_INITDB_DATABASE=${DB_MONGO_DATABASE}
-    networks:
-      - pyw3
+#    networks:
+#      - pyw3
 
 
-networks:
-  pyw3: { }
+#networks:
+#  pyw3: { }
