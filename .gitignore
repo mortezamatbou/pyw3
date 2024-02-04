@@ -1,2 +1,5 @@
 venv/
 .idea/
+docker-compose-volumes/mariadb
+docker-compose-volumes/mongodb
+docker-compose-volumes/redis
