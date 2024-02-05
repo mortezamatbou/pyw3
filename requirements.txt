@@ -10,3 +10,7 @@ pytz==2024.1
 redis==5.0.1
 six==1.16.0
 tzdata==2023.4
+
+mplfinance~=0.12.10b0
+requests~=2.31.0
+yfinance~=0.2.36
