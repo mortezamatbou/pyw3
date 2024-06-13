@@ -50,7 +50,8 @@ j = 0
 intraday = []
 tf = 60  # timeframe
 resolution = 1
-segments = int((10 * 86400) / (tf * 60))
+forward_day = 10
+segments = int((forward_day * 86400) / (tf * 60))
 for i in range(segments):
     j += 1
     # f = datetime.fromtimestamp(_from_)
