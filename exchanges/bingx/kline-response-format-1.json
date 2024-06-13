@@ -1,0 +1,14 @@
+WebSocket connected
+Subscribed to:
+{
+    "id": "e745cd6d-d0f6-4a70-8d5a-043e4c741b40",
+    "reqType": "sub",
+    "dataType": "BTC-USDT@kline_1m"
+}
+{
+    "id":"e745cd6d-d0f6-4a70-8d5a-043e4c741b40",
+    "code":0,
+    "msg":"",
+    "dataType":"",
+    "data":null
+}
