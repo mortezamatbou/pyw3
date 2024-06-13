@@ -52,8 +52,9 @@ df['hLow'] = df[['Low', 'hOpen', 'hClose']].apply(np.min, axis=1)
 
 df.dropna(inplace=True)
 
-data = df[["Time", "Open", "High", "Low", "Close"]]
-# print(data[''])
+data = pd.DataFrame(df[["Time", "hOpen", "hHigh", "hLow", "hClose"]])
+data.columns = ["Time", "Open", "High", "Low", "Close"]
+
 # show = data.loc['2024-01-28 00:00:00': '2024-02-02 23:55:00']
 # mpf.plot(show, type='candle',
 #          hlines=dict(hlines=[show.iloc[52]['Low']], colors=['g'], linestyle='-', alpha=0.4, linewidths=(0.5,)))
