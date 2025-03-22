@@ -1,7 +1,7 @@
 import mplfinance as mpf
 import pandas as pd
 
-dfo = pd.read_csv("./01-btc-sample-1D.csv", skipinitialspace=True, parse_dates=True,
+dfo = pd.read_csv("./01-btc-demo.csv", skipinitialspace=True, parse_dates=True,
                   usecols=['Date', 'Open', 'High', 'Low', 'Close'])
 dfo['Date'] = pd.to_datetime(dfo['Date'])
 
